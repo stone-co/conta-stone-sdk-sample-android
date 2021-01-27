@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "3695613030",
+    "firebase_url": "https://banking-93f40.firebaseio.com",
+    "project_id": "banking-93f40",
+    "storage_bucket": "banking-93f40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3695613030:android:ec43fac387638b008b89a7",
+        "android_client_info": {
+          "package_name": "co.stone.contastonesdksample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3695613030-gkea2vo1vg369phdkkju0aufq0hkso3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.stone.contastonesdksample",
+            "certificate_hash": "4bacfb655add7795658efca3c617825bb53d3e28"
+          }
+        },
+        {
+          "client_id": "3695613030-f5bku4felh3gmmgc469l3giok1usqvi8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt3hWhrjV3SORklREbVocvMiKd5yQ4Zxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3695613030-f5bku4felh3gmmgc469l3giok1usqvi8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

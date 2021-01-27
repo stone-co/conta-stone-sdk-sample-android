@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.stone.sdk">
+
+    <application
+        android:name=".sample.SampleApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ContaStoneSdkSample">
+        <activity android:name=".sample.OptionsActivity" />
+        <activity android:name=".sample.UpdateAppActivity" />
+        <activity android:name=".sample.HelpActivity" />
+        <activity android:name=".sample.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sample.LogoutActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="uri.logout"
+                    android:scheme="sample" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sample.ChatActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="uri.chat"
+                    android:scheme="sample" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sample.DashboardActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="uri.dashboard"
+                    android:scheme="sample" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

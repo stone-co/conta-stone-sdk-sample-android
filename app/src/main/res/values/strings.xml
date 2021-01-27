@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Conta Stone Sdk Sample</string>
+    <string name="activity_login_title">Das vendas à gestão, uma única solução</string>
+    <string name="activity_login_bt_label">Entrar na minha conta</string>
+    <string name="logout_message">Logout realizado com sucesso!</string>
+    <string name="chat_label">Tela do chat</string>
+    <string name="dashboard_label">Tela principal do app</string>
+    <string name="help_label">Tela de ajuda</string>
+    <string name="update_app_label">Tela de atualize seu app</string>
+
+    <string name="options_toolbar_title">Escolha uma das opções</string>
+
+    <string name="approver_action_label">Aprovador de Transações</string>
+    <string name="change_account_action_label">Trocar de conta</string>
+    <string name="register_pin_action_label">Registrar Pin</string>
+    <string name="change_pin_account_action_label">Alterar Pin</string>
+    <string name="enable_otp_action_label">Habilitar Otp</string>
+    <string name="authenticated_request_action_label">Fazer request autenticado</string>
+    <string name="logout_bt">Deslogar</string>
+    <string name="logout_label">Tela para redirecionar depois do Logout</string>
+</resources>
