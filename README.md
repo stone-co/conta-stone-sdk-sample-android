@@ -180,7 +180,7 @@ A authSDK é responsável por todo o processo de autenticação incluindo a adi�
         client.newCall(request).enqueue(callback)
     }
 ```
-## Como inicializar o Aprovador
+### Como inicializar o Aprovador
 Para conseguir iniciar o aprovador é necessário fazer a chamada conforme o exemplo abaixo
 ```
  contaStoneSdk.startApproverForResult(
