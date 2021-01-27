@@ -75,7 +75,7 @@ private val environment = Environment.Sandbox
 
 `environment`: Existem 3 ambientes para os quais a sdk pode apontar: `Homolog`, `Sandbox` e `Production` para fins de teste use o `Environment.Sandbox`
 
-`appInfo`: Informações referentes ap app como nome, versão e buildId.
+`appInfo`: Informações referentes ao app como nome, versão e buildId.
 
 `client_id`: Identificador fornecido pelo time de suporte OpenBank.
 
@@ -116,7 +116,7 @@ Este método inicia a Activity principal da SDK e executa os fluxos internos de 
 
 ### Lidando com o resultado da sdk
 
-Ao finalizar o fluxo de autenticação e verificação a SDK emite um resultado para o app informando o desfecho do fluxo. Segue abaixo um exemplo de como tratar o resultado emitido pela `conta-stone-sdk` e o que cada um significa. 
+Ao finalizar o fluxo de autenticação e verificação a SDK emite um resultado para o app informando o desfecho do fluxo. Segue abaixo um exemplo de como tratar o resultado emitido pela Conta Stone SDK e o que cada um significa. 
 ```
  override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
          super.onActivityResult(requestCode, resultCode, data)
@@ -136,7 +136,7 @@ Ao finalizar o fluxo de autenticação e verificação a SDK emite um resultado 
     }
 ```
 
-### Como fazer logout da usuária
+### Como fazer logout
 
 Para deslogar a usuária podemos fazer uma chamada para o método de logout seguindo o exemplo abaixo.
 
